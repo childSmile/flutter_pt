@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   exportOptions.plist
+   Runner
+
+   Created by MacPro on 2025/4/28.
+   Copyright (c) 2025 . All rights reserved.
+-->
+<plist version="1.0">
+
+    <dict>
+        <key>method</key>
+            <string>ad-hoc</string>
+            <key>teamID</key>
+            <string>GU3S34DK38</string>
+            <key>provisioningProfiles</key>
+            <dict>
+                <key>com.mrk.productionToolApp</key>
+                <string>basename</string>
+            </dict>
+        
+        
+        <!--     App Store 分发-->
+        <!--
+        <key>app-store</key>
+        <string>app-store</string>
+        <key>teamID</key>
+        <string>YOUR_TEAM_ID</string>
+        <key>uploadSymbols</key>
+        <true/>
+        <key>uploadBitcode</key>
+        <true/>
+        -->
+        <!--    Ad Hoc 分发-->
+        
+<!--        <key>ad-hoc</key>-->
+<!--        <string>ad-hoc</string>-->
+<!--        <key>teamID</key>-->
+<!--        <string>YOUR_TEAM_ID</string>-->
+<!--        <key>provisioningProfiles</key>-->
+<!--        <dict>-->
+<!--            <key>com.mrk.productionToolApp</key>-->
+<!--            <string>YOUR_PROVISIONING_PROFILE_NAME</string>-->
+<!--        </dict>-->
+        
+        
+        <!--        Enterprise 分发-->
+        <!--
+        <key>enterprise</key>
+           <string>enterprise</string>
+           <key>teamID</key>
+           <string>YOUR_TEAM_ID</string>
+           <key>provisioningProfiles</key>
+           <dict>
+               <key>com.yourcompany.yourapp</key>
+               <string>YOUR_PROVISIONING_PROFILE_NAME</string>
+           </dict>
+        -->
+        
+    </dict>
+
+
+</plist>

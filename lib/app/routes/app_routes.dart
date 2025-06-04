@@ -9,6 +9,7 @@ abstract class Routes {
   static const DATA_ANALYSIS = _Paths.DATA_ANALYSIS;
   static const DATA_CONVERT = _Paths.DATA_CONVERT;
   static const CHAR_DETIAL = _Paths.CHAR_DETIAL;
+  static const PRESSURE = _Paths.PRESSURE;
 }
 
 abstract class _Paths {
@@ -19,4 +20,5 @@ abstract class _Paths {
   static const DATA_ANALYSIS = '/data-analysis';
   static const DATA_CONVERT = '/data-convert';
   static const CHAR_DETIAL = '/char-detial';
+  static const PRESSURE = '/pressure';
 }

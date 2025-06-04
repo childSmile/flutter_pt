@@ -12,6 +12,8 @@ import '../modules/device_detial/bindings/device_detial_binding.dart';
 import '../modules/device_detial/views/device_detial_view.dart';
 import '../modules/home/bindings/home_binding.dart';
 import '../modules/home/views/home_view.dart';
+import '../modules/pressure/bindings/pressure_binding.dart';
+import '../modules/pressure/views/pressure_view.dart';
 
 part 'app_routes.dart';
 
@@ -50,6 +52,11 @@ class AppPages {
       name: _Paths.CHAR_DETIAL,
       page: () => const CharDetialView(),
       binding: CharDetialBinding(),
+    ),
+    GetPage(
+      name: _Paths.PRESSURE,
+      page: () => const PressureView(),
+      binding: PressureBinding(),
     ),
   ];
 }

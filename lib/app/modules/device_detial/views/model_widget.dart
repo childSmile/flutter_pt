@@ -59,7 +59,7 @@ class _ModelWidgetState extends State<ModelWidget> {
                             },
                             child: Text(
                               list[i],
-                              style: const TextStyle(fontSize: 12.0),
+                              style: const TextStyle(fontSize: 11.0),
                             ),
                           ),
                         ),

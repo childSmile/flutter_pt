@@ -32,6 +32,8 @@
 	<string>需要访问您的蓝牙连接设备</string>
 	<key>NSCameraUsageDescription</key>
 	<string>需要访问您的相机扫描二维码</string>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>需要访问您的文件导入蓝牙指令</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>

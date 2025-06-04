@@ -252,6 +252,10 @@ class DeviceDetialController extends GetxController {
     // _generateCommand();
   }
 
+  void toPressure() {
+    Get.toNamed(Routes.PRESSURE, arguments: deviceName);
+  }
+
   // 生成智健调阻指令
   void _generateCommand() async {
     String cm = "";

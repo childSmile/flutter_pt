@@ -80,6 +80,15 @@ class BluePlusManager extends GetxController {
     FlutterBluePlus.stopScan();
   }
 
+  Future<void> connectDevice(String name) async {
+    BluetoothDevice? device = _deviceFromName(name);
+    if (device == null) {
+      LogUtil().e("暂无设备");
+      return;
+    }
+    await device.connect();
+  }
+
   void connectDevice2(String name) async {
     BluetoothDevice? device = _deviceFromName(name);
     if (device == null) {
@@ -110,6 +119,7 @@ class BluePlusManager extends GetxController {
       });
     } catch (e) {
       LogUtil().e("连接失败: $e");
+      Fluttertoast.showToast(msg: "连接失败: $e");
     }
   }
 

@@ -77,8 +77,17 @@ class _ServiceWidgetState extends State<ServiceWidget> {
           children: [
             const Spacer(),
             FloatingActionButton(
+              heroTag: "service",
               onPressed: widget.controller.getService,
               child: const Text("Service"),
+            ),
+            const SizedBox(
+              width: 6,
+            ),
+            FloatingActionButton(
+              heroTag: "press",
+              onPressed: widget.controller.toPressure,
+              child: const Text("Press"),
             ),
           ],
         ),
